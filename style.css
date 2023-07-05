@@ -5,7 +5,7 @@
 }
 .banner{
     width: %;
-    height: 100vh;
+    height: 150vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background3.jpg);
     background-size: cover;
     background-position: center;
@@ -53,13 +53,13 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fffffffb;
+    color: #fcfcfcfb;
 }
 .content h1{
     font-size: 70px;
     margin-top: 80px;
 }.content p{
-    font-size: 30px;
+    font-size: 50px;
     margin: 5% auto;
     font-weight: 100;
     line-height: 25px;

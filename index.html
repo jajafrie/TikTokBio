@@ -10,10 +10,10 @@
             <img scr="logo.png" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Mail</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">Discord</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
             </ul>
         
         </div>
@@ -22,8 +22,17 @@
             <h1>HERE YOU CAN GET<br> MY CONTENT</h1>
             <p>~editsby911~</p>
             <div>
-                <button type="button"><span></span>MY CLIPS</button>
-                <button type="button"><span></span>JOIN DISCORD</button>
+                <button onclick="gotoLink(this)" value="https://drive.google.com/file/d/1IfOPzc02kJMpteQzZg4WwFrifG92ahv7/view?usp=sharing"><span></span>MY CLIPS</button>
+                <button onclick="gotoLink(this)" value="https://discord.com/channels/1121773056403181662/1121775294186004510"><span></span>DISCORD</button>
+                <button onclick="gotoLink(this)" value="https://www.tiktok.com/@blacey661"><span></span>SUPPORT HIM</button>
+                <button onclick="gotoLink(this)" value="https://www.tiktok.com/@editsby911"><span></span>CUSTOME PFP</button>
+                <script>
+                    function gotoLink(link){
+                        console.log(link.value);
+                        //location.href = link.value;
+                        window.open(link.value);
+                    };
+                </script>
             </div>
         
         </div>
